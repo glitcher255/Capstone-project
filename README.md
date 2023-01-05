@@ -83,7 +83,7 @@ Capstone project, portfolio for my CV
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://glitcher255.github.io/capstone-project/)
+- [Live Demo Link](https://glitcher255.github.io/Capstone-project/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -153,7 +153,7 @@ N/A
 
 Contributions, issues, and feature requests are welcome!
 
-Original design idea by Cindy Shin in Behance.
+Original design idea by [Cindy Shin in Behanc.](https://www.behance.net/adagio07)
 
 Feel free to check the [issues page](../../issues/).
 
