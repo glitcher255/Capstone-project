@@ -300,7 +300,6 @@ h1 {
   background-position: center;
   background-clip: text;
   background-attachment: fixed;
-  background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 48px;
 }
