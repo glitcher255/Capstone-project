@@ -794,3 +794,7 @@ ul#festival-list {
     display: none;
   }
 }
+
+.even_li {
+  flex: 1 1 0;
+}
