@@ -83,7 +83,7 @@ Capstone project, portfolio for my CV
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://glitcher255.github.io/capstone-project/)
+- [Live Demo Link](https://glitcher255.github.io/Capstone-project/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
