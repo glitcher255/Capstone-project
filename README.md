@@ -153,7 +153,7 @@ N/A
 
 Contributions, issues, and feature requests are welcome!
 
-Original design idea by Cindy Shin in Behance.
+Original design idea by [Cindy Shin in Behanc.](https://www.behance.net/adagio07)
 
 Feel free to check the [issues page](../../issues/).
 
