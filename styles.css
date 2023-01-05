@@ -1,36 +1,36 @@
 @font-face {
-  font-family: Lato-Regular;
-  src: url("./assets/fonts/Lato-Regular.ttf");
+  font-family: 'Lato-Regular';
+  src: url('./assets/fonts/Lato-Regular.ttf');
 }
 
 @font-face {
-  font-family: Lato-Bold;
-  src: url("./assets/fonts/Lato-Bold.ttf");
+  font-family: 'Lato-Bold';
+  src: url('./assets/fonts/Lato-Bold.ttf');
 }
 
 @font-face {
-  font-family: Lato-Black;
-  src: url("./assets/fonts/Lato-Black.ttf");
+  font-family: 'Lato-Black';
+  src: url('./assets/fonts/Lato-Black.ttf');
 }
 
 @font-face {
-  font-family: Lato-Italic;
-  src: url("./assets/fonts/Lato-Italic.ttf");
+  font-family: 'Lato-Italic';
+  src: url('./assets/fonts/Lato-Italic.ttf');
 }
 
 @font-face {
-  font-family: Cocogoose-Regular;
-  src: url("./assets/fonts/Cocogoose-Light-trial.ttf");
+  font-family: 'Cocogoose-Regular';
+  src: url('./assets/fonts/Cocogoose-Light-trial.ttf');
 }
 
 @font-face {
-  font-family: Cocogoose-Bold;
-  src: url("./assets/fonts/Cocogoose-Semilight-trial.ttf");
+  font-family: 'Cocogoose-Bold';
+  src: url('./assets/fonts/Cocogoose-Semilight-trial.ttf');
 }
 
 @font-face {
-  font-family: Cocogoose-Black;
-  src: url("./assets/fonts/Cocogoose-Regular.ttf");
+  font-family: 'Cocogoose-Black';
+  src: url('./assets/fonts/Cocogoose-Regular.ttf');
 }
 
 html {
@@ -153,31 +153,31 @@ main#landing {
 
 /* Fonts */
 .coco-font {
-  font-family: Cocogoose-Regular, sans-serif;
+  font-family: 'Cocogoose-Regular', sans-serif;
 }
 
 .coco-font-bold {
-  font-family: Cocogoose-Bold, sans-serif;
+  font-family: 'Cocogoose-Bold', sans-serif;
 }
 
 .coco-font-extraBold {
-  font-family: Cocogoose-Black, sans-serif;
+  font-family: 'Cocogoose-Black', sans-serif;
 }
 
 .lato-font {
-  font-family: Lato-Regular, sans-serif;
+  font-family: 'Lato-Regular', sans-serif;
 }
 
 .lato-font-italic {
-  font-family: Lato-Italic, sans-serif;
+  font-family: 'Lato-Italic', sans-serif;
 }
 
 .lato-font-bold {
-  font-family: Lato-Bold, sans-serif;
+  font-family: 'Lato-Bold', sans-serif;
 }
 
 .lato-font-extraBold {
-  font-family: Lato-Black, sans-serif;
+  font-family: 'Lato-Black', sans-serif;
 }
 
 .uppercase {
@@ -261,7 +261,7 @@ body {
 
 .nav-mobile a {
   font-size: 30px;
-  font-family: Lato-Bold, sans-serif;
+  font-family: 'Lato-Bold', sans-serif;
   color: #282a34;
   text-decoration: none;
 }
@@ -280,6 +280,7 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-blend-mode: screen;
   justify-content: center;
 }
 
@@ -296,11 +297,11 @@ header .wrapper {
 
 h1 {
   color: #ec5242;
-  background: url("./assets/h1_bg.jpg") no-repeat;
+  background: url('./assets/h1_bg.jpg') no-repeat;
   background-position: center;
   background-clip: text;
   background-attachment: fixed;
-  background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 48px;
 }
@@ -313,7 +314,7 @@ h1 {
   box-sizing: border-box;
   justify-content: center;
   align-items: center;
-  background: url("./assets/logistic_bg.jpg"), #282a34;
+  background: url('./assets/logistic_bg.jpg'), #282a34;
   background-size: contain;
   background-blend-mode: multiply;
 }
@@ -457,11 +458,11 @@ h2.lato-font.white-color {
 
 .partner-item {
   display: flex;
-  width: 100%;
+  width: 30%;
   justify-content: center;
   align-items: center;
   color: #5e5e5e;
-  font-family: Lato-Bold, sans-serif;
+  font-family: 'Lato-Bold', sans-serif;
 }
 
 /* Footer */
@@ -487,8 +488,7 @@ footer {
 .partner-item img {
   width: 100%;
   object-fit: contain;
-  color: #5e5e5e;
-  max-height: 100px;
+  max-height: 60px;
 }
 
 /* About-us */
@@ -563,7 +563,7 @@ ul#festival-list {
 
 .festival-item {
   height: 200px;
-  background: url("./assets/2021.jpg"), #ec5242;
+  background: url('./assets/2021.jpg'), #ec5242;
   background-size: cover;
   background-repeat: no-repeat;
   background-blend-mode: multiply;
@@ -575,7 +575,7 @@ ul#festival-list {
 }
 
 .festival-item.twenty2 {
-  background: url("./assets/2022.jpg"), #ec5242;
+  background: url('./assets/2022.jpg'), #ec5242;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -613,7 +613,7 @@ ul#festival-list {
   #main-navigator {
     justify-content: center;
     background: white;
-    box-shadow: 0 1px 6px 2px rgb(0 0 0 / 6600%);
+    box-shadow: 0 1px 6px 2px rgba(0, 0, 0, 66);
     flex-direction: column;
     height: 120px;
     align-items: center;
@@ -692,7 +692,7 @@ ul#festival-list {
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    font-family: Lato-Regular, sans-serif;
+    font-family: 'Lato-Regular', sans-serif;
     color: #282a34;
   }
 

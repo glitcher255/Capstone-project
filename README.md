@@ -132,7 +132,7 @@ N/A
 
 - GitHub: [@githubhandle](https://github.com/glitcher255)
 
-👤 **Jose**
+👤 **Nelson**
 
 - GitHub: [@githubhandle](https://github.com/jmonto55)
 
@@ -152,6 +152,8 @@ N/A
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
+
+Original design idea by Cindy Shin in Behance.
 
 Feel free to check the [issues page](../../issues/).
 
@@ -194,5 +196,3 @@ This project is [MIT](./MIT.md) licensed.
 
 
 
-
-tst
