@@ -1,5 +1,5 @@
-# micro-porfolio
-# micro-porfolio
+# Capstone
+# Capstone
 This is the feature branch
 project:
 <a name="readme-top"></a>
@@ -39,9 +39,9 @@ project:
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Micro portfolio <a name="about-project"></a>
+# 📖 Capstone <a name="about-project"></a>
 
-Porfolio that displays perfectly on both desktop and mobile
+Capstone project, portfolio for my CV
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -83,7 +83,7 @@ Porfolio that displays perfectly on both desktop and mobile
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://glitcher255.github.io/micro-porfolio/)
+- [Live Demo Link](https://glitcher255.github.io/capstone-project/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
